@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ミミノバ TOPページ掲載用 「難聴者の相続・生活設計ガイド」導線コード集</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Yu Gothic", sans-serif;
+      background: #F8FAFC;
+      color: #1E293B;
+      padding: 32px 16px 80px;
+      line-height: 1.6;
+      margin: 0;
+    }
+    .wrapper {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    .intro-box {
+      background: #FFFFFF;
+      border: 1.5px solid #E2E8F0;
+      border-radius: 14px;
+      padding: 24px 28px;
+      margin-bottom: 32px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .pattern-card {
+      background: #FFFFFF;
+      border: 1.5px solid #CBD5E1;
+      border-radius: 16px;
+      padding: 28px 24px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .pattern-header {
+      border-bottom: 2px solid #1E50A2;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .pattern-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #0F172A;
+      margin: 0 0 6px 0;
+    }
+    .pattern-desc {
+      font-size: 0.9rem;
+      color: #64748B;
+      margin: 0;
+    }
+    .preview-area {
+      background: #FAF9F6;
+      border: 1px dashed #CBD5E1;
+      border-radius: 12px;
+      padding: 24px 16px;
+      margin-bottom: 20px;
+    }
+    pre {
+      background: #0F172A;
+      color: #E2E8F0;
+      padding: 16px 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 0.82rem;
+      line-height: 1.5;
+    }
+    .copy-tip {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #1E50A2;
+      margin: 16px 0 6px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  
+  <div class="intro-box">
+    <h1 style="font-size: 1.5rem; font-weight: 800; color: #1E50A2; margin: 0 0 8px 0;">
+      ミミノバ TOPページ用「難聴者の相続・生活設計ガイド」導線コード集
+    </h1>
+    <p style="margin: 0; font-size: 0.92rem; color: #475569;">
+      ミミノバのトップページ（HOME）から新相談ガイドページへ読者をスムーズに案内するためのコード集です。<br>
+      サイトの構成やお好みに合わせて選べるよう、<strong>【パターン1：単独ワイド特設カード】</strong>、<strong>【パターン2：公式バナー画像リンク】</strong>、<strong>【パターン3：ツール並列コンパクトカード】</strong>の3種類を用意しました。<br>
+      ※WordPressの「カスタムHTML」ブロックにそのままコピー＆ペーストしてご利用いただけます。
+    </p>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- パターン1：単独ワイド特設カード（一番おすすめ） -->
+  <!-- ======================================================== -->
+  <div class="pattern-card">
+    <div class="pattern-header">
+      <h2 class="pattern-title">🌟 パターン1：【単独ワイド特設カード】（一番おすすめ・高いCTR）</h2>
+      <p class="pattern-desc">
+        トップページのセクション間（Webツールの下や記事一覧の上など）に1枚で差し込める、最もクリックされやすく信頼感の高いデザインです。
+      </p>
+    </div>
+
+    <!-- プレビュー -->
+    <div class="preview-area">
+      <!-- ▼▼▼ 実際の表示 ▼▼▼ -->
+      <style>
+        .mmnb-consult-banner-wrap a:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 8px 24px rgba(30, 80, 162, 0.18) !important;
+        }
+        .mmnb-consult-banner-btn:hover {
+          opacity: 0.92;
+          transform: translateY(-1px);
+          box-shadow: 0 4px 12px rgba(230, 81, 0, 0.35) !important;
+        }
+        @media (max-width: 640px) {
+          .mmnb-consult-banner-inner {
+            padding: 22px 18px !important;
+          }
+          .mmnb-consult-banner-title {
+            font-size: 1.25rem !important;
+          }
+        }
+      </style>
+
+      <div class="mmnb-consult-banner-wrap" style="max-width: 920px; margin: 10px auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', 'Yu Gothic', sans-serif; box-sizing: border-box;">
+        <div class="mmnb-consult-banner-inner" style="background: linear-gradient(135deg, #F0F7FF 0%, #FFFFFF 60%, #FFF8F0 100%); border: 2px solid #90CAF9; border-radius: 18px; padding: 28px 32px; box-shadow: 0 6px 20px rgba(30, 80, 162, 0.08); transition: all 0.25s ease;">
+          
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap;">
+            <span style="background: #1E50A2; color: #FFFFFF; font-size: 0.75rem; font-weight: 800; padding: 4px 12px; border-radius: 9999px; letter-spacing: 0.04em;">NEW 専門相談ガイド</span>
+            <span style="background: #FFE0B2; color: #BF360C; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 9999px;">難聴当事者の行政書士が対応</span>
+            <span style="background: #E8F0FE; color: #1565C0; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 9999px;">📱 電話不要・完全テキスト対応</span>
+          </div>
+
+          <h3 class="mmnb-consult-banner-title" style="font-size: 1.45rem; font-weight: 800; color: #0D47A1; margin: 0 0 8px 0; line-height: 1.4;">
+            「聞こえない。伝わらない。」不安をゼロにする。
+          </h3>
+
+          <p style="font-weight: 700; color: #1E293B; font-size: 0.98rem; margin: 0 0 10px 0;">
+            コミュニケーションの壁をなくし、難聴者の未来を守る、難聴行政書士による相続・生活設計サポート
+          </p>
+
+          <p style="color: #475569; font-size: 0.90rem; line-height: 1.7; margin: 0 0 16px 0;">
+            遺産分割協議で親族の話が聞き取れず流されてしまう不安や、親なき後の生活設計、難解な役所手続き。難聴当事者の行政書士が、メール・専用フォーム・筆談を中心に完全伴走します。
+          </p>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
+            <span style="background: #FFFFFF; border: 1px solid #BBDEFB; color: #0D47A1; font-size: 0.80rem; font-weight: 700; padding: 5px 12px; border-radius: 6px;">⚖️ 遺産分割の情報保障・立ち会い</span>
+            <span style="background: #FFFFFF; border: 1px solid #C8E6C9; color: #1B5E20; font-size: 0.80rem; font-weight: 700; padding: 5px 12px; border-radius: 6px;">🛡️ 任意後見・親なき後の財産管理</span>
+            <span style="background: #FFFFFF; border: 1px solid #E1BEE7; color: #4A148C; font-size: 0.80rem; font-weight: 700; padding: 5px 12px; border-radius: 6px;">📑 役所申請書類代行・契約チェック</span>
+          </div>
+
+          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; border-top: 1px dashed #90CAF9; padding-top: 16px;">
+            <span style="color: #64748B; font-size: 0.85rem; font-weight: 500;">
+              ✉️ ご相談は専用フォームまたはメールで受付中（電話は一切不要です）
+            </span>
+            <a href="https://miminoba.jp/consultant/" class="mmnb-consult-banner-btn" style="display: inline-block; background: linear-gradient(135deg, #F57C00 0%, #E65100 100%); color: #FFFFFF !important; font-weight: 800; font-size: 0.95rem; padding: 11px 28px; border-radius: 9999px; text-decoration: none !important; box-shadow: 0 4px 10px rgba(230, 81, 0, 0.28); transition: all 0.2s ease;">
+              安心ガイド＆相談窓口を見る →
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <!-- ▲▲▲ 実際の表示終了 ▲▲▲ -->
+    </div>
+
+    <p class="copy-tip">📋 WordPress貼り付け用コード（カスタムHTMLブロックに貼り付け）：</p>
+    <pre><code>&lt;!-- ===== 【ミミノバ TOP用】難聴者の相続・生活設計ガイド 特設ワイドバナー ===== --&gt;
+&lt;style&gt;
+  .mmnb-consult-banner-wrap a:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(30, 80, 162, 0.18) !important; }
+  .mmnb-consult-banner-btn:hover { opacity: 0.92; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(230, 81, 0, 0.35) !important; }
+  @media (max-width: 640px) {
+    .mmnb-consult-banner-inner { padding: 22px 18px !important; }
+    .mmnb-consult-banner-title { font-size: 1.25rem !important; }
+  }
+&lt;/style&gt;
+
+&lt;div class="mmnb-consult-banner-wrap" style="max-width: 920px; margin: 20px auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', 'Yu Gothic', sans-serif; box-sizing: border-box;"&gt;
+  &lt;div class="mmnb-consult-banner-inner" style="background: linear-gradient(135deg, #F0F7FF 0%, #FFFFFF 60%, #FFF8F0 100%); border: 2px solid #90CAF9; border-radius: 18px; padding: 28px 32px; box-shadow: 0 6px 20px rgba(30, 80, 162, 0.08); transition: all 0.25s ease;"&gt;
+    
+    &lt;div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap;"&gt;
+      &lt;span style="background: #1E50A2; color: #FFFFFF; font-size: 0.75rem; font-weight: 800; padding: 4px 12px; border-radius: 9999px; letter-spacing: 0.04em;"&gt;NEW 専門相談ガイド&lt;/span&gt;
+      &lt;span style="background: #FFE0B2; color: #BF360C; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 9999px;"&gt;難聴当事者の行政書士が対応&lt;/span&gt;
+      &lt;span style="background: #E8F0FE; color: #1565C0; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 9999px;"&gt;📱 電話不要・完全テキスト対応&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class="mmnb-consult-banner-title" style="font-size: 1.45rem; font-weight: 800; color: #0D47A1; margin: 0 0 8px 0; line-height: 1.4;"&gt;
+      「聞こえない。伝わらない。」不安をゼロにする。
+    &lt;/h3&gt;
+
+    &lt;p style="font-weight: 700; color: #1E293B; font-size: 0.98rem; margin: 0 0 10px 0;"&gt;
+      コミュニケーションの壁をなくし、難聴者の未来を守る、難聴行政書士による相続・生活設計サポート
+    &lt;/p&gt;
+
+    &lt;p style="color: #475569; font-size: 0.90rem; line-height: 1.7; margin: 0 0 16px 0;"&gt;
+      遺産分割協議で親族の話が聞き取れず流されてしまう不安や、親なき後の生活設計、難解な役所手続き。難聴当事者の行政書士が、メール・専用フォーム・筆談を中心に完全伴走します。
+    &lt;/p&gt;
+
+    &lt;div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;"&gt;
+      &lt;span style="background: #FFFFFF; border: 1px solid #BBDEFB; color: #0D47A1; font-size: 0.80rem; font-weight: 700; padding: 5px 12px; border-radius: 6px;"&gt;⚖️ 遺産分割の情報保障・立ち会い&lt;/span&gt;
+      &lt;span style="background: #FFFFFF; border: 1px solid #C8E6C9; color: #1B5E20; font-size: 0.80rem; font-weight: 700; padding: 5px 12px; border-radius: 6px;"&gt;🛡️ 任意後見・親なき後の財産管理&lt;/span&gt;
+      &lt;span style="background: #FFFFFF; border: 1px solid #E1BEE7; color: #4A148C; font-size: 0.80rem; font-weight: 700; padding: 5px 12px; border-radius: 6px;"&gt;📑 役所申請書類代行・契約チェック&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; border-top: 1px dashed #90CAF9; padding-top: 16px;"&gt;
+      &lt;span style="color: #64748B; font-size: 0.85rem; font-weight: 500;"&gt;
+        ✉️ ご相談は専用フォームまたはメールで受付中（電話は一切不要です）
+      &lt;/span&gt;
+      &lt;a href="https://miminoba.jp/consultant/" class="mmnb-consult-banner-btn" style="display: inline-block; background: linear-gradient(135deg, #F57C00 0%, #E65100 100%); color: #FFFFFF !important; font-weight: 800; font-size: 0.95rem; padding: 11px 28px; border-radius: 9999px; text-decoration: none !important; box-shadow: 0 4px 10px rgba(230, 81, 0, 0.28); transition: all 0.2s ease;"&gt;
+        安心ガイド＆相談窓口を見る →
+      &lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- ===== 【ミミノバ TOP用】特設ワイドバナー終了 ===== --&gt;</code></pre>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- パターン2：公式画像バナー型（既存バナー素材の活用） -->
+  <!-- ======================================================== -->
+  <div class="pattern-card">
+    <div class="pattern-header">
+      <h2 class="pattern-title">🖼️ パターン2：【公式画像バナー型】（既存の画像素材をそのまま活用）</h2>
+      <p class="pattern-desc">
+        制作済みの「難聴者のワークライフ伴走士」画像（<code>banner_legal_counsel.jpg</code>）をWordPressのメディアにアップロードし、画像リンクとして掲載するシンプルで美しい方法です。
+      </p>
+    </div>
+
+    <!-- プレビュー -->
+    <div class="preview-area">
+      <style>
+        .mmnb-img-banner-link:hover img {
+          transform: translateY(-2px);
+          box-shadow: 0 10px 24px rgba(0,0,0,0.15) !important;
+        }
+      </style>
+      <div style="max-width: 860px; margin: 10px auto; text-align: center;">
+        <a href="https://miminoba.jp/consultant/" class="mmnb-img-banner-link" style="display: block; text-decoration: none;">
+          <img src="assets/banner_legal_counsel.jpg" alt="難聴者のワークライフ伴走士 行政書士による相続・生活設計相談ガイド" style="width: 100%; height: auto; border-radius: 14px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); transition: all 0.25s ease; border: 2px solid #E2E8F0;">
+        </a>
+      </div>
+    </div>
+
+    <p class="copy-tip">📋 WordPress貼り付け用コード（※画像URLはWordPressメディア内のURLに変更してください）：</p>
+    <pre><code>&lt;!-- ===== 【ミミノバ TOP用】画像バナーリンク ===== --&gt;
+&lt;div style="max-width: 860px; margin: 20px auto; text-align: center;"&gt;
+  &lt;a href="https://miminoba.jp/consultant/" style="display: block; text-decoration: none; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'"&gt;
+    &lt;img src="https://miminoba.jp/wp-content/uploads/banner_legal_counsel.jpg" alt="難聴者のワークライフ伴走士 行政書士による相続・生活設計相談ガイド" style="width: 100%; height: auto; border-radius: 14px; box-shadow: 0 4px 14px rgba(0,0,0,0.1); border: 2px solid #E2E8F0;" loading="lazy"&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</code></pre>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- パターン3：ツール並列コンパクトカード -->
+  <!-- ======================================================== -->
+  <div class="pattern-card">
+    <div class="pattern-header">
+      <h2 class="pattern-title">🗂️ パターン3：【ツール並列コンパクトカード】（既存ツールと並べる）</h2>
+      <p class="pattern-desc">
+        トップページの「聞こえのトリセツ」や「障害者割引マップ」などのカード一覧と並べて設置できるコンパクトなカード型デザインです。
+      </p>
+    </div>
+
+    <!-- プレビュー -->
+    <div class="preview-area">
+      <div style="max-width: 380px; margin: 10px auto;">
+        <div style="background: #FFFFFF; border: 1.5px solid #CBD5E1; border-radius: 14px; padding: 22px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); transition: transform 0.2s;">
+          <span style="background: #1E50A2; color: #FFF; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">相談窓口</span>
+          <h4 style="font-size: 1.15rem; color: #0D47A1; margin: 10px 0 6px 0; font-weight: 800;">
+            ⚖️ 相続・遺言・生活設計サポート
+          </h4>
+          <p style="font-size: 0.85rem; color: #64748B; margin: 0 0 16px 0; line-height: 1.6;">
+            難聴当事者の行政書士が完全テキスト・筆談で伴走。遺産分割の情報保障から親なき後の備えまで。
+          </p>
+          <a href="https://miminoba.jp/consultant/" style="display: block; text-align: center; background: #1E50A2; color: #FFF !important; text-decoration: none !important; font-weight: 700; font-size: 0.88rem; padding: 9px 16px; border-radius: 8px;">
+            ガイドを見る →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <p class="copy-tip">📋 WordPress貼り付け用コード：</p>
+    <pre><code>&lt;!-- ===== 【ミミノバ TOP用】コンパクトツールカード ===== --&gt;
+&lt;div style="background: #FFFFFF; border: 1.5px solid #CBD5E1; border-radius: 14px; padding: 22px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);"&gt;
+  &lt;span style="background: #1E50A2; color: #FFF; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;"&gt;相談窓口&lt;/span&gt;
+  &lt;h4 style="font-size: 1.15rem; color: #0D47A1; margin: 10px 0 6px 0; font-weight: 800;"&gt;
+    ⚖️ 相続・遺言・生活設計サポート
+  &lt;/h4&gt;
+  &lt;p style="font-size: 0.85rem; color: #64748B; margin: 0 0 16px 0; line-height: 1.6;"&gt;
+    難聴当事者の行政書士が完全テキスト・筆談で伴走。遺産分割の情報保障から親なき後の備えまで。
+  &lt;/p&gt;
+  &lt;a href="https://miminoba.jp/consultant/" style="display: block; text-align: center; background: #1E50A2; color: #FFF !important; text-decoration: none !important; font-weight: 700; font-size: 0.88rem; padding: 9px 16px; border-radius: 8px;"&gt;
+    ガイドを見る →
+  &lt;/a&gt;
+&lt;/div&gt;</code></pre>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- 付録：ミミノバ共通ナビゲーションへの追加 -->
+  <!-- ======================================================== -->
+  <div class="pattern-card">
+    <div class="pattern-header">
+      <h2 class="pattern-title">🧭 付録：ミミノバ公式ヘッダーの「Webツール連携メニュー」への追加</h2>
+      <p class="pattern-desc">
+        全ページ共通で表示されているヘッダー・フッター内の「Webツール連携メニュー（サブナビ）」に本相談ガイドを追加する場合のコードです。
+      </p>
+    </div>
+    <p style="font-size: 0.90rem; color: #334155;">
+      <code>miminoba-nav.js</code> の <code>WEB_TOOLS</code> 配列に以下を1行追加するだけで、ミミノバ全ページの共通メニューに「相続・生活設計相談」が自動反映されます：
+    </p>
+    <pre><code>// miminoba-nav.js の WEB_TOOLS 配列への追加コード
+const WEB_TOOLS = [
+  { label: '耳のトリセツ作成', url: 'https://miminoba.jp/manual/' },
+  { label: '手帳・障害者割引マップ', url: 'https://miminoba.jp/map/' },
+  { label: '全国サインストアマップ', url: 'https://miminoba.jp/sign-map/' },
+  { label: '補聴器・人工内耳助成金ナビ', url: 'https://miminoba.jp/subsidy/' },
+  { label: '仕事・就労サポート', url: 'https://miminoba.jp/home/work' },
+  { label: '子どもの家族サポート', url: 'https://miminoba.jp/kids' },
+  // ↓↓↓ 以下の行を追加 ↓↓↓
+  { label: '難聴者の相続・生活設計相談', url: 'https://miminoba.jp/consultant/' }
+];</code></pre>
+  </div>
+
+</div>
+
+</body>
+</html>
