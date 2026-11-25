@@ -5,17 +5,7 @@ on:
     branches:
       - main
       - master
-    paths:
-      - 'index.html'
-      - 'miminoba-nav.css'
-      - 'miminoba-nav.js'
-      - 'assets/**'
-      - '.github/workflows/deploy.yml'
   workflow_dispatch:
-
-concurrency:
-  group: production
-  cancel-in-progress: true
 
 jobs:
   web-deploy:
@@ -25,7 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -35,10 +25,10 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.FTP_DIR }}
           protocol: ftps
+          dangerous-clean-slate: false
           exclude: |
             **/.git*
             **/.git*/**
             **/.github*/**
-            **/node_modules/**
             **/top-banner-snippet.html
             **/ANTIGRAVITY.md
